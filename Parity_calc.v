@@ -19,7 +19,7 @@ begin
 	Par_bit <= 1'b0;
 	end
 
-	else if (Par_en)
+	else if (Par_en && Data_valid)
 	begin
 
 	case(Par_type)	
