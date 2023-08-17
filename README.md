@@ -1,5 +1,4 @@
 # UART_TX
-######################################################################################################################################
 # What is UART
  UART stands for Universal Asynchronous Receiver/Transmitter
  UART is a block of circuitry responsible for implementing serial communication between 2 devices
@@ -12,12 +11,12 @@
 > Data_valid to tell the UART that there is parallel data coming from the master
 > par_en to enable the parity flag if it's required
 > par_type to determine which parity type (even or odd) will be used in the frame
-> clk
-> rst (asynchronous reset)
+> clk.
+> rst (asynchronous reset).
 ##################################################################################################################################
 # outputs :-
-> TX_OUT to exit the converted data serially to be used in UART RX
-> busy it's high whenever there is a transmission 
+> TX_OUT to exit the converted data serially to be used in UART RX.
+> busy it's high whenever there is a transmission. 
 #####################################################################################################################################
 # Specifications: -
  UART TX receive the new data on P_DATA Bus only when Data_Valid Signal is high.
